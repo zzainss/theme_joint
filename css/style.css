@@ -1,0 +1,200 @@
+@font-face {
+	font-family: 'WalkwayBold';
+    src: url('fonts/original_Walkway_Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/original_Walkway_Bold.woff') format('woff'),
+         url('fonts/original_Walkway_Bold.ttf') format('truetype'),
+         url('fonts/original_Walkway_Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.WalkwayBold{
+    font-family: 'WalkwayBold';
+    letter-spacing:1px;
+    word-spacing: 2px;
+	color:#FFFFFF;
+	font-size: 17px;
+}
+.opensans{
+    font-family:'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color:#F18C00;
+}
+body{
+    background: url(../img/bg.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+ul.nav{
+    margin: 15px
+}
+a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover, .nav>li>a:focus, .nav>li>a:hover{
+    background: none;
+    color: #fff;
+    text-decoration:underline;
+}
+.nav li{
+    border-left: 1px solid #fff;
+    display: inline-block;
+}
+.nav li:first-child{
+    border-left: none
+}
+.navbar{
+    background: #F18C00;
+}
+.navbar h1{
+    text-indent: -99999px;
+    background: url('../img/l_jn.png') no-repeat;
+    width: 132px;
+    height: 45px;
+    margin: 10px 15px;
+}
+.dropdown-menu{
+    border-left: 5px solid #F18c00;
+}
+.dropdown-menu li{
+    display: block;
+}
+.dropdown-toggle img{
+    margin-right: 5px;
+    border-radius: 50%;
+    background: #fff;
+    border: none;
+}
+.page-wrapper h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color:#F18C00;
+    margin-top: 165px;
+    margin-bottom: 65px;
+}
+.wrapper .center{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+form input{
+    margin: 0;
+    padding: 13px;
+    color: #000;
+    border: 1px solid #343434;
+}
+form .queservicio{
+    width: 396px;
+    background: #fff url(../img/que-servicio.png) no-repeat center right 10px;
+}
+form .codigozip{
+    width: 247px;
+    background: #fff url(../img/codigo-zip.png)no-repeat center right 10px;
+    border-left: none;
+}
+form input[type="submit"]{
+    background: #f18c00;
+    width: 150px;
+    border: 1px solid #f18c00;
+}
+.navbar form{
+    margin-top: 15px;
+}
+.navbar input{
+    padding: 8px;
+    max-width: 250px;
+}
+.navbar form .codigozip{
+    width: 170px;
+}
+.navbar form input[type="submit"]{
+    background: #575757;
+    width: 110px;
+    border: 1px solid #575757;
+    color: #fff;
+}
+.page-wrapper .nav ul{
+    margin-top: 180px;
+}
+.page-wrapper .nav li{
+    display: inline-block;
+    font-size: 22px;
+    padding: 30px 130px;
+    font-weight: bold;
+}
+.page-wrapper li span{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+}
+.page-wrapper .nav li{
+    border-left: 1px solid #F18C00;
+    display: inline-block;
+}
+.page-wrapper .nav li:first-child{
+    border-left: none
+}
+body.interna{
+    background: #F5F7F6!important;
+}
+.content{
+    margin-top: 100px;
+}
+.content .row.style{
+    background: #fff;
+    margin: 20px auto;
+    max-width: 990px;
+    border: 1px solid #ccc;
+    float: none !important;
+}
+.content .row{
+    margin: 20px auto;
+    max-width: 990px;
+    float: none !important;
+}
+.border-left{
+    border-left: 1px solid;
+}
+.border-right{
+    border-right: 1px solid;
+}
+.padding-15 {
+    padding: 15px 15px;
+}
+.imagen img{
+    margin: 28px auto;
+}
+.col-md-10 h3{
+    display: inline-block;
+}
+.col-md-10 small{
+    display: block;
+}
+.col-md-10 .linea{
+    border-bottom: 1px solid;
+}
+.glyphicon-star{
+    color: yellow;    
+}
+div.contacto{
+    background:#ccc;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 19px;
+}
+.contacto ul li{
+    list-style: none;
+}
+.contacto li span{
+    display: inline-block;
+    margin: 5px;
+    font-size: 18px;
+}
+
+
+
+
+
